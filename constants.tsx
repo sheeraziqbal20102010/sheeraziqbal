@@ -178,10 +178,10 @@ export const PROJECTS: Project[] = [
     id: 'gen3',
     title: " Date & Day Finder",
     description: "Find all occurrences of a specific day.",
-    tags: ["React", "Time Management"],
+    tags: ["React", "Days Managment", "date Management"],
     imageUrl: "",
     category: "Personal",
-    liveUrl: "https://aura-rouge.vercel.app/"
+    liveUrl: "https://dates-finder.vercel.app/"
   },
   // DSA
   {
@@ -300,6 +300,15 @@ export const PROJECTS: Project[] = [
     imageUrl: "",
     category: "Curriculum",
     liveUrl: "https://infix-to-prefix.vercel.app/"
+  },
+    {
+    id: 'dsa14',
+    title: "Quick Sort",
+    description: "A divide-and-conquer algorithm.",
+    tags: ["DSA", "Quick Sort", "Recursion"],
+    imageUrl: "",
+    category: "Curriculum",
+    liveUrl: "https://quick-sort-pi.vercel.app/"
   },
   // C/C++
   {
