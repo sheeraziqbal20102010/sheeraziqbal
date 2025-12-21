@@ -6,7 +6,7 @@ export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   
-  const CV_LINK = "https://drive.google.com/file/d/1LL4_wmNkCtJFCU3B4uZ3A2EH1nYiIFGV/view?usp=drive_link";
+  const CV_LINK = "https://drive.google.com/file/d/1xWkExytScoVw8UkywKQAk4yBZ-CoQlUV/view?usp=drive_link";
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
