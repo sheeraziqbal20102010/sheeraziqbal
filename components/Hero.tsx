@@ -37,8 +37,9 @@ const StatsCounter = ({ value, label, isNumeric = false }: { value: string; labe
 const Hero: React.FC = () => {
   const [text, setText] = useState('');
   const nameText = "I am Sheeraz.";
-  
-  const CV_LINK = "https://drive.google.com/file/d/1LL4_wmNkCtJFCU3B4uZ3A2EH1nYiIFGV/view?usp=drive_link";
+  //https://drive.google.com/file/d/1xWkExytScoVw8UkywKQAk4yBZ-CoQlUV/view?usp=sharing (new)
+  //https://drive.google.com/file/d/1LL4_wmNkCtJFCU3B4uZ3A2EH1nYiIFGV/view?usp=drive_link (old)
+  const CV_LINK = "https://drive.google.com/file/d/1xWkExytScoVw8UkywKQAk4yBZ-CoQlUV/view?usp=drive_link";
   
   // Using the thumbnail endpoint is often more reliable for embedding than the export=view endpoint
   // &sz=w1000 requests a large version of the image (width 1000px)
