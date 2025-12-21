@@ -174,6 +174,15 @@ export const PROJECTS: Project[] = [
     category: "Personal",
     liveUrl: "https://aura-rouge.vercel.app/"
   },
+  {
+    id: 'gen3',
+    title: " Date & Day Finder",
+    description: "Find all occurrences of a specific day.",
+    tags: ["React", "Time Management"],
+    imageUrl: "",
+    category: "Personal",
+    liveUrl: "https://aura-rouge.vercel.app/"
+  },
   // DSA
   {
     id: 'dsa1',
