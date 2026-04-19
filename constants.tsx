@@ -116,40 +116,40 @@ export const SKILLS: SkillCategory[] = [
     category: "Core Subjects Mastery",
     skills: [
       { name: "Programming Fundamentals", level: 100 },
-      { name: "OOP & Data Structures", level: 99 },
-      { name: "Data Structures & Algorithms", level: 98 },
-      { name: "Database Systems", level: 96 },
+      { name: "Data Structures & Algorithms", level: 99 },
+      { name: "Database Systems", level: 99 },
+      { name: "Object Oriented Programming", level: 98 },
+      { name: "Digital Logic Design (DLD)", level: 99 },
       { name: "Python Programming", level: 97 },
-      { name: "Digital Logic Design (DLD)", level: 94 },
-      { name: "Analysis of Algorithms", level: 92 },
+      { name: "Analysis of Algorithms", level: 95 },
     ]
   },
   {
     category: "Languages & Dev",
     skills: [
       { name: "C / C++", level: 100 },
-      { name: "C#", level: 95 },
-      { name: "Python", level: 90 },
-      { name: "Java", level: 85 },
-      { name: "R-Programming", level: 75 },
+      { name: "C#", level: 99 },
+      { name: "Python", level: 97 },
+      { name: "Java", level: 92 },
+      { name: "R-Programming", level: 88 },
     ]
   },
   {
     category: "Tools & Graphics",
     skills: [
       { name: "MS Office Suite", level: 100 },
-      { name: "Adobe Photoshop", level: 85 },
-      { name: "After Effects / Canva", level: 80 },
+      { name: "Adobe Photoshop", level: 97 },
       { name: "VS Code / Visual Studio", level: 95 },
+      { name: "After Effects / Canva", level: 85 },
     ]
   },
   {
     category: "Specializations",
     skills: [
-      { name: "IoT Technologies", level: 80 },
-      { name: "Curriculum Design", level: 98 },
+      { name: "Curriculum Design", level: 100 },
       { name: "Digital Learning", level: 95 },
-      { name: "Mobile App Dev", level: 75 },
+      { name: "IoT Technologies", level: 88 },   
+      { name: "Mobile App Dev", level: 80 },
     ]
   }
 ];
