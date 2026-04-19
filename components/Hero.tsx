@@ -108,8 +108,8 @@ const Hero: React.FC = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 border-t border-tech-muted/20 pt-8">
             <StatsCounter value="11+" label="Years Experience" />
-            <StatsCounter value="5000" label="Students Taught" isNumeric={true} />
-            <StatsCounter value="5+" label="Certifications" />
+            <StatsCounter value="6000" label="Students Taught" isNumeric={true} />
+            <StatsCounter value="11+" label="Certifications" />
           </div>
         </motion.div>
 
