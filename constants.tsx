@@ -385,5 +385,62 @@ export const TESTIMONIALS: Testimonial[] = [
     role: "Adobe Workshop",
     content: "The 2-day workshop on Adobe Photoshop Basics & Advance Techniques was incredibly insightful and practical.",
     image: "https://picsum.photos/100/100?random=11"
-  }
+  },
+  {
+  id: 't3',
+  name: "Best Teacher Award",
+  role: "Unayzah International School (KSA)",
+  content: "Awarded Best Teacher of the Year 2023 for outstanding teaching performance and student engagement.",
+  image: "https://picsum.photos/100/100?random=12"
+},
+{
+  id: 't4',
+  name: "Innovative ICT Educator",
+  role: "Unayzah International School (KSA)",
+  content: "Recognized for implementing innovative ICT strategies and enhancing digital learning experiences in the classroom.",
+  image: "https://picsum.photos/100/100?random=13"
+},
+{
+  id: 't5',
+  name: "Teacher Trainer",
+  role: "Unayzah International School (KSA)",
+  content: "Honored with Teacher Trainer Excellence Award for mentoring educators and promoting modern teaching methodologies.",
+  image: "https://picsum.photos/100/100?random=14"
+},
+{
+  id: 't6',
+  name: "EdTech Leadership",
+  role: "Unayzah International School (KSA)",
+  content: "Received Digital & EdTech Leadership Award for integrating advanced technologies into academic environments.",
+  image: "https://picsum.photos/100/100?random=15"
+},
+{
+  id: 't7',
+  name: "Curriculum Developer",
+  role: "IQRA University",
+  content: "Contributed to curriculum development in computer science, AI, and cybersecurity, aligning with modern industry standards.",
+  image: "https://picsum.photos/100/100?random=21"
+},
+{
+  id: 't8',
+  name: "Research Workshop",
+  role: "Iqra University",
+  content: "Participated in 'Concept to Publication' workshop, enhancing research writing and academic publication skills.",
+  image: "https://picsum.photos/100/100?random=17"
+},
+{
+  id: 't9',
+  name: "Assessment Strategies",
+  role: "Agha Khan University",
+  content: "Completed training on Differentiated Assessment Strategies, improving classroom evaluation techniques.",
+  image: "https://picsum.photos/100/100?random=18"
+},
+{
+  id: 't10',
+  name: "Adobe Trainer",
+  role: "Sukkur IBA University",
+  content: "Led a 2-day workshop on Adobe Photoshop Basics & Advanced Techniques, focusing on practical design skills.",
+  image: "https://picsum.photos/100/100?random=19"
+}
+
 ];
