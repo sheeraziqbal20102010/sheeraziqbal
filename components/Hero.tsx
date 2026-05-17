@@ -38,14 +38,14 @@ const Hero: React.FC = () => {
   const [text, setText] = useState('');
   const nameText = "I am Sheeraz.";
   //https://drive.google.com/file/d/1xWkExytScoVw8UkywKQAk4yBZ-CoQlUV/view?usp=sharing (new)
-  //https://drive.google.com/file/d/14rfB6srxhSJLP7RbbGdPao6l5ixQjYpC/view?usp=sharing (new 2)
   //https://drive.google.com/file/d/1LL4_wmNkCtJFCU3B4uZ3A2EH1nYiIFGV/view?usp=drive_link (old)
-
-  const CV_LINK = "https://drive.google.com/file/d/14rfB6srxhSJLP7RbbGdPao6l5ixQjYpC/view?usp=sharing";
-  
+  const CV_LINK = "https://drive.google.com/file/d/1xWkExytScoVw8UkywKQAk4yBZ-CoQlUV/view?usp=sharing";  //link for CV donwload
+   
   // Using the thumbnail endpoint is often more reliable for embedding than the export=view endpoint
   // &sz=w1000 requests a large version of the image (width 1000px)
-  const PROFILE_IMAGE_URL = "https://drive.google.com/thumbnail?id=1qxU6ZJZn9Bps3z0Zgfm0kNB7xGp8J7aQ&sz=w1000";
+  //https://drive.google.com/thumbnail?id=14rfB6srxhSJLP7RbbGdPao6l5ixQjYpC&sz=w1000 (new)
+  //https://drive.google.com/thumbnail?id=1qxU6ZJZn9Bps3z0Zgfm0kNB7xGp8J7aQ&sz=w1000 (old)
+  const PROFILE_IMAGE_URL = "https://drive.google.com/thumbnail?id=14rfB6srxhSJLP7RbbGdPao6l5ixQjYpC&sz=w1000";
 
   useEffect(() => {
     let index = 0;
