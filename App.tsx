@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import { Courses, Testimonials } from './components/AdditionalSections';
 import Contact from './components/Contact';
+import Insights from './components/Insights'; // ← ADD THIS 28/6/26
 import { ThemeToggle } from './components/ThemeToggle';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Courses />
         <Testimonials />
         <Contact />
+        <Insights />  {/* ← ADD THIS 28/6/26 */} 
       </main>
       <Footer />
     </div>
