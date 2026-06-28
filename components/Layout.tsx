@@ -36,6 +36,7 @@ export const Navbar: React.FC = () => {
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
+    { name: 'Insights', href: '#insights' },  // ← ADD THIS LINE 28/6/2026
   ];
 
   return (
