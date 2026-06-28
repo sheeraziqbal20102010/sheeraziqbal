@@ -66,3 +66,59 @@ const Insights: React.FC = () => {
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "16px", marginBottom: "2rem" }}>
         {posts.map((post) => (
+          <a key={post.id} href={post.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+            <div
+              style={{ background: "#112233", border: "1px solid #1e3a52", borderRadius: "12px", overflow: "hidden", cursor: "pointer", transition: "border-color 0.2s, transform 0.2s" }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLDivElement).style.borderColor = "#00e5a0";
+                (e.currentTarget as HTMLDivElement).style.transform = "translateY(-4px)";
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLDivElement).style.borderColor = "#1e3a52";
+                (e.currentTarget as HTMLDivElement).style.transform = "translateY(0)";
+              }}
+            >
+              <div style={{ position: "relative" }}>
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  style={{ width: "100%", aspectRatio: "1/1", objectFit: "cover", display: "block" }}
+                />
+                <span style={{ position: "absolute", top: "10px", left: "10px", background: post.tagColor, color: "#0d1b2a", fontSize: "10px", fontWeight: 700, padding: "3px 8px", borderRadius: "4px", fontFamily: "monospace" }}>
+                  {post.tag}
+                </span>
+                <div style={{ position: "absolute", top: "10px", right: "10px", background: "rgba(13,27,42,0.85)", border: "1px solid #1e3a52", borderRadius: "8px", padding: "4px 10px", textAlign: "center", fontFamily: "monospace" }}>
+                  <div style={{ color: "#00e5a0", fontSize: "10px", fontWeight: 700 }}>{post.month}</div>
+                  <div style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, lineHeight: 1 }}>{post.day}</div>
+                </div>
+              </div>
+
+              <div style={{ padding: "12px" }}>
+                <p style={{ color: "#e0eaf4", fontSize: "13px", fontWeight: 600, margin: "0 0 8px", lineHeight: 1.4, fontFamily: "monospace" }}>
+                  {post.title}
+                </p>
+                <div style={{ display: "flex", justifyContent: "space-between", fontSize: "11px" }}>
+                  <span style={{ color: "#7a9bb5" }}>♥ {post.likes.toLocaleString()}</span>
+                  <span style={{ color: "#7a9bb5" }}>💬 {post.comments}</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div style={{ textAlign: "center" }}>
+        
+          href="https://www.linkedin.com/in/your-linkedin-username"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: "inline-block", border: "1px solid #00e5a0", color: "#00e5a0", padding: "10px 28px", borderRadius: "6px", fontFamily: "monospace", fontSize: "13px", textDecoration: "none" }}
+        >
+          // View all on LinkedIn →
+        </a>
+      </div>
+    </section>
+  );
+};
+
+export default Insights;
