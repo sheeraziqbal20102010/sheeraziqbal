@@ -11,7 +11,7 @@ const posts = [
     day: "12",
     likes: 847,
     comments: 63,
-    link: "https://www.linkedin.com/posts/your-post-url-1",
+    link: "https://media.licdn.com/dms/image/v2/D4D22AQEqZUMQuaw5tw/feedshare-shrink_800/B4DZ5TzWOiKAAg-/0/1779522430108?e=1784160000&v=beta&t=IbKSDaPvrH1iwLAKBWU5rymiIIN-ap7RTZE-Umynvmg",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const posts = [
     day: "28",
     likes: 1200,
     comments: 114,
-    link: "https://www.linkedin.com/posts/your-post-url-2",
+    link: "https://media.licdn.com/dms/image/v2/D4D22AQFyKMEeIznInw/feedshare-shrink_800/B4DZ5Os6UvGQAg-/0/1779436856921?e=1784160000&v=beta&t=3Nk04lQmY4zKjw6Wfs2pFmg1MBmh0mGINJkmfHUdw3o",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const posts = [
     day: "14",
     likes: 934,
     comments: 78,
-    link: "https://www.linkedin.com/posts/your-post-url-3",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7464593620382380032/",
   },
 ];
 
