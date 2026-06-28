@@ -11,7 +11,7 @@ const posts = [
     day: "12",
     likes: 847,
     comments: 63,
-    link: "https://www.linkedin.com/posts/your-post-url-1",
+    link: "https://www.linkedin.com/in/sheeraziqbal",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const posts = [
     day: "28",
     likes: 1200,
     comments: 114,
-    link: "https://www.linkedin.com/posts/your-post-url-2",
+    link: "https://www.linkedin.com/in/sheeraziqbal",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const posts = [
     day: "14",
     likes: 934,
     comments: 78,
-    link: "https://www.linkedin.com/posts/your-post-url-3",
+    link: "https://www.linkedin.com/in/sheeraziqbal",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const posts = [
     day: "30",
     likes: 672,
     comments: 49,
-    link: "https://www.linkedin.com/posts/your-post-url-4",
+    link: "https://www.linkedin.com/in/sheeraziqbal",
   },
 ];
 
@@ -63,7 +63,6 @@ const Insights: React.FC = () => {
       <p style={{ color: "#7a9bb5", fontSize: "14px", marginBottom: "2rem" }}>
         Pictorial posts I share on LinkedIn — coding, mentorship and educator tips.
       </p>
-
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "16px", marginBottom: "2rem" }}>
         {posts.map((post) => (
           <a key={post.id} href={post.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
@@ -92,7 +91,6 @@ const Insights: React.FC = () => {
                   <div style={{ color: "#ffffff", fontSize: "16px", fontWeight: 700, lineHeight: 1 }}>{post.day}</div>
                 </div>
               </div>
-
               <div style={{ padding: "12px" }}>
                 <p style={{ color: "#e0eaf4", fontSize: "13px", fontWeight: 600, margin: "0 0 8px", lineHeight: 1.4, fontFamily: "monospace" }}>
                   {post.title}
@@ -106,10 +104,9 @@ const Insights: React.FC = () => {
           </a>
         ))}
       </div>
-
       <div style={{ textAlign: "center" }}>
         
-          href="https://www.linkedin.com/in/your-linkedin-username"
+          href="https://www.linkedin.com/in/sheeraziqbal"
           target="_blank"
           rel="noopener noreferrer"
           style={{ display: "inline-block", border: "1px solid #00e5a0", color: "#00e5a0", padding: "10px 28px", borderRadius: "6px", fontFamily: "monospace", fontSize: "13px", textDecoration: "none" }}
